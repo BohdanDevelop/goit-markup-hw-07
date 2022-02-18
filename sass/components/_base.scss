@@ -1,0 +1,38 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+  }
+
+  body {
+    color: var(--greyColor);
+    font-family: 'Roboto', sans-serif;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+
+  

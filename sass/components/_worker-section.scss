@@ -1,0 +1,111 @@
+.workers {
+
+  
+  background-color: #f5f4fa;
+  &--list {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0 auto;
+   
+  }
+  &--employee {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  &--employee:not(:last-child) {
+    margin-right: 30px;
+  }
+  &--two-texts {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  &--name {
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--blackColor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+  }
+  &--description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    text-align: center;
+  }
+  
+
+  
+}
+
+
+ 
+ 
+  
+ 
+
+
+
+  .icon-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    &--margin + &--margin {
+      margin-left: 10px;
+    }
+    &--media {
+      display: inline-block;
+      border-radius: 50%;
+    
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &--badge {
+      margin: 12px;
+      stroke: #afb1b8;
+      fill: #afb1b8;
+    
+      transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    }
+   
+    
+  &--media:hover,
+  &--media:focus 
+  {
+  
+    background-color: #2196f3;
+    outline: none;
+    
+  }
+  &--margin {
+    width: 44px;
+    height: 44px;
+  
+    border-radius: 50%;
+  
+  }
+  
+  &--margin:hover &--badge, .icon-box--media:focus &--badge {
+    stroke: #fff;
+    fill: #fff;
+  }
+&--margin:hover &--badge, &--media:focus &--badge {
+    stroke: #fff;
+    fill: #fff;
+  }
+
+&--media:focus {
+    fill: var(--blueColor);
+    outline-color: var(--blueColor);
+    
+   
+    
+  }
+
+  }
+ 
+
+
+ 
+
