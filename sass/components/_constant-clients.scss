@@ -1,5 +1,5 @@
 .clients {
-  &--header {
+  &__header {
     margin-bottom: 50px;
   
     color: #212121;
@@ -10,11 +10,11 @@
     text-align: center;
     letter-spacing: 0.03rem;
   }
-  &--order {
+  &__order {
     display: flex;
     justify-content: center;
   }
-  &--company{
+  &__company{
     border: 1px solid #afb1b8;
     padding: 16px 32px;
   
@@ -24,25 +24,25 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &--company:focus, &--company:hover {
+  &__company:focus, &__company:hover {
     border-color: var(--blueColor);
     background-color: #fff;
     outline:none;
   }
     
 
-  &--company:hover .clients--brand, &--company:focus .clients--brand{
+  &__company:hover .clients__brand, &__company:focus .clients__brand{
     fill: var(--blueColor);
   }
 
 
 
- &--company + &--company {
+ &__company + &__company {
     margin-left: 30px;
   }
   
   
-&--brand {
+&__brand {
   fill: #afb1b8;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

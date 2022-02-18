@@ -1,21 +1,21 @@
 .second-section {
-  &--remove {
+  &__remove {
     display: none;
   }
 
-  &--order-icons {
+  &__order-icons {
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
   }
-  &--advantage {
+  &__advantage {
     width: 270px;
   }
-  &--advantage:not(:last-child) {
+  &__advantage:not(:last-child) {
     margin-right: 30px;
   }
-  &--icon-container {
+  &__icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
     height: 120px;
     background-color: #f5f4fa;
   }
-  &--header{
+  &__header{
     margin-bottom: 10px;
     font-weight: bold;
     font-size: 14px;
@@ -34,7 +34,7 @@
     text-transform: uppercase;
   }
   
-&--text{
+&__text{
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

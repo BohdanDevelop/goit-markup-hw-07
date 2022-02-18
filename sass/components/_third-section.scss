@@ -1,7 +1,7 @@
 
 .what-do {
   padding-top: 0;
-  &--list {
+  &__list {
   
     display: flex;
     justify-content: space-between;
@@ -10,16 +10,16 @@
     margin-bottom: 0;
     
   }
-  &--description{
+  &__description{
   
     padding-bottom: 0;
     margin-bottom: 0;
   }
- &--description:not(:last-child) {
+ &__description:not(:last-child) {
     padding-right: 30px;
    
   }
-  &--sliding{
+  &__sliding{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,18 +32,18 @@
     
     
   }
-  &--image{
+  &__image{
     position: relative;
     overflow: hidden;
     
   }
-  &--image:hover &--sliding{
+  &__image:hover &__sliding{
     transform: translateY(-70px);
   }
-  &--image{
+  &__image{
     display:block
   }
-  &--text{
+  &__text{
     position: absolute;
     color: #fff;
     font-family: "Roboto";

@@ -6,13 +6,13 @@
   background-image: linear-gradient(#2f303a66, #2f303a66), url(../images/background.jpg);
   background-size: cover;
 
-  &--flex {
+  &__flex {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  &--header {
+  &__header {
     padding-bottom: 40px;
     font-weight: 900;
     color: #ffffff;
